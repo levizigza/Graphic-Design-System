@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>OpenPath Employer Flyer — Duplex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0a1f44;
+      --navy-deep: #051228;
+      --gold: #c9a227;
+      --paper: #f4efe6;
+      --ink: #1c1c1c;
+      --muted: #4a4a4a;
+      --white: #ffffff;
+      --margin: 0.42in;
+      --safe: 0.35in;
+      --font-head: "Arimo", "Helvetica Neue", Arial, sans-serif;
+      --font-body: "IBM Plex Sans Condensed", "Arial Narrow", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #d8d2c8;
+      color: var(--ink);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    @page { size: letter portrait; margin: 0; }
+
+    .page {
+      width: 8.5in;
+      height: 11in;
+      margin: 0.4in auto;
+      position: relative;
+      overflow: hidden;
+      background: var(--paper);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+    }
+    @media print {
+      body { background: #fff; }
+      .page { margin: 0; box-shadow: none; page-break-after: always; }
+    }
+
+    /* —— FRONT (exact approved artwork) —— */
+    .front-fill {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* —— BACK —— */
+    .back {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      background: var(--paper);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.22in var(--margin) 0.16in;
+      background: var(--white);
+      border-bottom: 1px solid rgba(10,31,68,0.08);
+      flex: 0 0 auto;
+    }
+    .logo {
+      height: 0.48in;
+      width: auto;
+      display: block;
+      object-fit: contain;
+    }
+    .employer-label {
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: 10pt;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+
+    .headline {
+      margin: 0.22in var(--margin) 0;
+      background: linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
+      padding: 0.22in 0.28in;
+      flex: 0 0 auto;
+    }
+    .headline h1 {
+      margin: 0;
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: 26pt;
+      line-height: 1.05;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+    .headline h1 .gold {
+      color: var(--gold);
+      display: block;
+    }
+
+    .scenarios {
+      margin: 0.22in var(--margin) 0;
+      flex: 0 0 auto;
+    }
+    .scenario {
+      padding: 0.12in 0;
+      border-bottom: 1px solid var(--gold);
+    }
+    .scenario:first-child { padding-top: 0; }
+    .scenario h2 {
+      margin: 0 0 0.04in;
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: 12pt;
+      color: var(--navy);
+      letter-spacing: 0.01em;
+    }
+    .scenario p {
+      margin: 0;
+      font-family: var(--font-body);
+      font-size: 11.5pt;
+      line-height: 1.35;
+      color: var(--muted);
+      max-width: 6.8in;
+    }
+
+    .planner {
+      margin: 0.24in var(--margin) 0;
+      background: var(--white);
+      border: 1px solid rgba(201,162,39,0.45);
+      padding: 0.2in 0.22in 0.16in;
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.14in;
+    }
+    .planner h2 {
+      margin: 0 0 0.02in;
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: 13pt;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+    .planner-intro {
+      margin: 0 0 0.06in;
+      font-family: var(--font-body);
+      font-size: 11pt;
+      color: var(--muted);
+    }
+    .prompt {
+      display: grid;
+      grid-template-columns: 2.15in 1fr;
+      align-items: end;
+      gap: 0.12in;
+      min-height: 0.34in;
+    }
+    .prompt label {
+      font-family: var(--font-body);
+      font-size: 11.5pt;
+      font-weight: 500;
+      color: var(--ink);
+      padding-bottom: 0.04in;
+    }
+    .write-line {
+      height: 0;
+      border: 0;
+      border-bottom: 1.25px solid rgba(10,31,68,0.35);
+      margin: 0 0 0.04in;
+      width: 100%;
+    }
+
+    .action {
+      margin: 0.18in var(--margin) 0;
+      text-align: center;
+      flex: 0 0 auto;
+    }
+    .action p {
+      margin: 0;
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: 13pt;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--navy);
+      line-height: 1.25;
+    }
+
+    .contact {
+      margin: 0.16in var(--margin) var(--safe);
+      background: var(--navy);
+      color: var(--white);
+      padding: 0.18in 0.24in;
+      flex: 0 0 auto;
+    }
+    .contact-inner {
+      font-family: var(--font-body);
+      font-size: 11.5pt;
+      line-height: 1.45;
+      letter-spacing: 0.01em;
+    }
+    .contact strong {
+      font-family: var(--font-head);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      font-size: 10pt;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.06in;
+    }
+    .contact a { color: inherit; text-decoration: none; }
+    .addr {
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page 1: approved Version 2 front (exact) -->
+  <section class="page" data-document-role="page" data-label="Front — FOR EMPLOYERS">
+    <img class="front-fill" src="front.png" alt="OpenPath employer flyer front — Version 2" />
+  </section>
+
+  <!-- Page 2: leave-behind / conversation planner -->
+  <section class="page back" data-document-role="page" data-label="Back — YOUR NEXT HIRE">
+    <header class="header">
+      <img class="logo" src="logo.jpg" alt="OpenPath Placement Agency" />
+      <div class="employer-label">For Employers</div>
+    </header>
+
+    <div class="headline">
+      <h1>Your Next Hire<span class="gold">Starts Here</span></h1>
+    </div>
+
+    <div class="scenarios">
+      <div class="scenario">
+        <h2>Need coverage right away?</h2>
+        <p>Temporary staffing for short-term, seasonal, and project-based roles when you need reliable people quickly.</p>
+      </div>
+      <div class="scenario">
+        <h2>Want to try before you hire?</h2>
+        <p>Temp-to-permanent placements that let you evaluate fit before making a long-term commitment.</p>
+      </div>
+      <div class="scenario">
+        <h2>Ready for a long-term hire?</h2>
+        <p>Permanent placement with tailored candidate matching for roles on your own payroll.</p>
+      </div>
+    </div>
+
+    <div class="planner">
+      <h2>Let’s Talk About Your Role</h2>
+      <p class="planner-intro">Jot a few notes before we call — or during your visit.</p>
+
+      <div class="prompt">
+        <label>Role / title</label>
+        <div class="write-line" aria-hidden="true"></div>
+      </div>
+      <div class="prompt">
+        <label>Start date / urgency</label>
+        <div class="write-line" aria-hidden="true"></div>
+      </div>
+      <div class="prompt">
+        <label>Hours / schedule</label>
+        <div class="write-line" aria-hidden="true"></div>
+      </div>
+      <div class="prompt">
+        <label>Must-have skills</label>
+        <div class="write-line" aria-hidden="true"></div>
+      </div>
+      <div class="prompt">
+        <label>Location / pay range</label>
+        <div class="write-line" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <div class="action">
+      <p>Already have a job description?<br />Email it to us.</p>
+    </div>
+
+    <footer class="contact">
+      <strong>Contact</strong>
+      <div class="contact-inner">
+        (587)&nbsp;392-5044<br />
+        info@openpathplacementagency.com<br />
+        openpathplacementagency.com<br />
+        <span class="addr">#10, 3745 Memorial Dr E, Calgary, AB T2A&nbsp;6V4</span>
+      </div>
+    </footer>
+  </section>
+
+</body>
+</html>
