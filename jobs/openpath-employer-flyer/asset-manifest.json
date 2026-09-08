@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "assets-openpath-employer-flyer",
+  "createdAt": "2026-09-08T04:45:00.000Z",
+  "updatedAt": "2026-09-08T04:45:00.000Z",
+  "jobId": "job_openpath_employer_flyer",
+  "correlationId": "corr_openpath_employer_flyer",
+  "designVersion": "v1",
+  "assets": [
+    {
+      "id": "asset-logo-openpath",
+      "kind": "logo",
+      "label": "Official OpenPath logo (supplied business-card / brand mark)",
+      "localPath": "assets/OpenPath-Logo.JPG",
+      "approvalRecordId": "apr-logo-openpath-client-supplied",
+      "licenseRecordId": "lic-logo-openpath",
+      "provenance": {
+        "origin": "client_supplied",
+        "supplier": "Open Path Placement Agency / Open Path Pro",
+        "sourceRef": "Official mark retained; wordmark updated per client request to OpenPath Placement Agency (original OPEN PATH PRO backed up)",
+        "notes": [
+          "Graphic mark unchanged from supplied logo",
+          "Wordmark: OpenPath / Placement Agency",
+          "Original PRO lockup preserved at assets/OpenPath-Logo-PRO-original.JPG"
+        ]
+      }
+    },
+    {
+      "id": "asset-hero-pexels-5439468",
+      "kind": "photo",
+      "label": "Hero — recruiter and candidate discussing documents (licensed stock)",
+      "localPath": "assets/hero-pexels-5439468-hires.jpg",
+      "sourceUrl": "https://www.pexels.com/photo/5439468/",
+      "licenseRecordId": "lic-pexels-5439468",
+      "provenance": {
+        "origin": "stock",
+        "supplier": "Pexels",
+        "sourceRef": "https://www.pexels.com/photo/5439468/",
+        "notes": [
+          "Selected as licensed substitute because a properly licensed high-resolution Getty original was unavailable",
+          "Getty reference page used for art direction only; Getty preview was not scraped or downloaded for production",
+          "Reference screenshot retained separately for comparison: assets/reference-getty-screenshot.png",
+          "Composition: Black male professional presenting tablet to woman candidate; documents and laptop visible; bright modern office"
+        ]
+      }
+    },
+    {
+      "id": "asset-qr-employer",
+      "kind": "other",
+      "label": "QR code — employer / contact site",
+      "localPath": "assets/qr-employer-contact.png",
+      "licenseRecordId": "lic-qr-generated",
+      "provenance": {
+        "origin": "generated",
+        "supplier": "OpenPath production pipeline (qrcode)",
+        "sourceRef": "https://openpathplacementagency.com",
+        "notes": ["Encodes verified public site URL only"]
+      }
+    },
+    {
+      "id": "asset-reference-screenshot",
+      "kind": "other",
+      "label": "Getty art-direction reference screenshot (not for production print)",
+      "localPath": "assets/reference-getty-screenshot.png",
+      "licenseRecordId": "lic-reference-nonproduction",
+      "provenance": {
+        "origin": "other",
+        "supplier": "Operator reference capture",
+        "sourceRef": "Screenshot 2026-09-07 221146.png",
+        "notes": [
+          "Reference only — do not place on printed flyer",
+          "Documents desired Getty composition without using unlicensed Getty pixels"
+        ]
+      }
+    }
+  ],
+  "licenses": [
+    {
+      "id": "lic-logo-openpath",
+      "assetId": "asset-logo-openpath",
+      "owner": "Open Path Placement Agency Inc. / Open Path Pro",
+      "licenseType": "client_supplied",
+      "licenseLabel": "Client-owned brand mark — use as supplied",
+      "commercialUseAllowed": true,
+      "modificationAllowed": false,
+      "attributionRequired": false,
+      "notes": ["Exact reproduction required on employer flyer"]
+    },
+    {
+      "id": "lic-pexels-5439468",
+      "assetId": "asset-hero-pexels-5439468",
+      "owner": "Pexels contributor (via Pexels)",
+      "licenseType": "stock_licensed",
+      "licenseLabel": "Pexels License — free for commercial use",
+      "sourceRef": "https://www.pexels.com/license/",
+      "commercialUseAllowed": true,
+      "modificationAllowed": true,
+      "attributionRequired": false,
+      "notes": [
+        "https://www.pexels.com/photo/5439468/",
+        "Do not redistribute the photo as a standalone stock asset",
+        "Preferred Getty original may replace this asset when a paid license is purchased"
+      ]
+    },
+    {
+      "id": "lic-qr-generated",
+      "assetId": "asset-qr-employer",
+      "owner": "Open Path Placement Agency Inc.",
+      "licenseType": "owned",
+      "licenseLabel": "Generated for this job",
+      "commercialUseAllowed": true,
+      "modificationAllowed": true,
+      "attributionRequired": false,
+      "notes": []
+    },
+    {
+      "id": "lic-reference-nonproduction",
+      "assetId": "asset-reference-screenshot",
+      "owner": "Reference capture — not a production license",
+      "licenseType": "client_supplied",
+      "licenseLabel": "Art-direction reference only",
+      "commercialUseAllowed": false,
+      "modificationAllowed": false,
+      "attributionRequired": false,
+      "notes": ["Must not appear on exported print files"]
+    }
+  ]
+}

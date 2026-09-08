@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "brief-openpath-employer-flyer",
+  "client": "Open Path Placement Agency Inc.",
+  "audience": "employers",
+  "format": { "widthIn": 8.5, "heightIn": 11, "orientation": "portrait" },
+  "concept": "Open Role? Open the Right Path.",
+  "heroShareOfPage": "≈37% (4.05in)",
+  "visualReference": {
+    "gettySearch": "https://www.gettyimages.com/photos/manager-and-a-candidate-in-a-job-interview",
+    "screenshot": "assets/reference-getty-screenshot.png",
+    "policy": "Art direction only — no Getty scrape; production uses licensed Pexels #5439468 until Getty original is purchased. Stock models are not identified as OpenPath employees, clients, or candidates."
+  },
+  "palette": {
+    "navy": "#0A1F44",
+    "gold": "#C9A227",
+    "offwhite": "#F7F3EB",
+    "charcoal": "#2A2A2A"
+  },
+  "typefaces": ["Manrope", "Source Sans 3"],
+  "servicesExact": [
+    "Temporary Staffing",
+    "Temp-to-Permanent",
+    "Permanent Placement",
+    "Recruitment Process Outsourcing",
+    "International Recruitment"
+  ],
+  "process": ["DISCOVER", "MATCH", "PLACE", "SUPPORT"],
+  "deliverables": [
+    "layouts/01-primary.html",
+    "layouts/02-crop-faces.html",
+    "layouts/03-crop-documents.html",
+    "layouts/04-crop-wide-table.html",
+    "layouts/05-alternate-split.html"
+  ],
+  "canvaStatus": "pending_live_mcp — rebuild via CANVA-HANDOFF.md",
+  "qrTarget": "https://openpathplacementagency.com"
+}
