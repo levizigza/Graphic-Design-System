@@ -1,0 +1,47 @@
+[
+  {
+    "id": "F001",
+    "occurredAt": "2026-09-08T04:00:00.000Z",
+    "formatId": "shared",
+    "stage": "canva_discovery",
+    "severity": "blocker",
+    "summary": "Canva Design MCP not connected",
+    "detail": "Live tool discovery returned 0 Canva tools. Poster and business card handoffs used pilot_harness_mock IDs (PILOT_MOCK_*), which cannot receive final design approval.",
+    "recurring": true,
+    "convertedInto": {
+      "kind": "validation_rule",
+      "reference": "assertFinalDesignApprovalAllowed",
+      "description": "Final design approval is rejected unless canvaProvenance.source === live_design_mcp, with designId, editUrl, and proofed export present."
+    }
+  },
+  {
+    "id": "F-cta-contrast-poster",
+    "occurredAt": "2026-09-08T04:00:00.000Z",
+    "formatId": "poster",
+    "stage": "format_adaptation",
+    "severity": "major",
+    "summary": "Brand accent CTA contrast failed for poster",
+    "detail": "Kiln #C45C26 with white CTA text is 4.28:1 — below print 4.5:1. Revised to darkened kiln #8B3416.",
+    "recurring": true,
+    "convertedInto": {
+      "kind": "validation_rule",
+      "reference": "assertBrandCtaContrast",
+      "description": "Reject brand CTA fill/text pairs below print contrast (4.5:1) before Canva production; Studio North uses darkened kiln #8B3416 with white CTA text."
+    }
+  },
+  {
+    "id": "F-cta-contrast-business_card",
+    "occurredAt": "2026-09-08T04:00:00.000Z",
+    "formatId": "business_card",
+    "stage": "format_adaptation",
+    "severity": "major",
+    "summary": "Brand accent CTA contrast failed for business_card",
+    "detail": "Kiln #C45C26 with white CTA text is 4.28:1 — below print 4.5:1. Revised to darkened kiln #8B3416.",
+    "recurring": true,
+    "convertedInto": {
+      "kind": "validation_rule",
+      "reference": "assertBrandCtaContrast",
+      "description": "Reject brand CTA fill/text pairs below print contrast (4.5:1) before Canva production; Studio North uses darkened kiln #8B3416 with white CTA text."
+    }
+  }
+]

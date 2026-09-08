@@ -1,0 +1,32 @@
+{
+  "name": "graphic-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Coordinator and schemas for Canva-backed marketing design jobs",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test:schemas": "tsx --test src/schemas/schemas.test.ts",
+    "test:intake": "tsx --test src/modules/intake.test.ts",
+    "test:concepts": "tsx --test src/modules/concept-board.test.ts",
+    "test:canva": "tsx --test src/canva/adapter.test.ts",
+    "test:formats": "tsx --test src/modules/format-adaptation.test.ts",
+    "test:preflight": "tsx --test src/modules/preflight.test.ts",
+    "test:critique": "tsx --test src/modules/critique.test.ts",
+    "test:production": "tsx --test src/canva/production.integration.test.ts",
+    "test:pilot": "tsx --test src/pilots/m1-pilot.test.ts",
+    "pilot:m1": "tsx src/pilots/run-m1-pilot.ts",
+    "test": "tsx --test src/schemas/schemas.test.ts src/modules/intake.test.ts src/modules/concept-board.test.ts src/canva/adapter.test.ts src/modules/format-adaptation.test.ts src/modules/preflight.test.ts src/modules/critique.test.ts src/canva/production.integration.test.ts src/pilots/m1-pilot.test.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

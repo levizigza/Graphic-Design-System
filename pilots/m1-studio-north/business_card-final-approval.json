@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "apr-design-business_card",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "subject": "design",
+  "subjectId": "PILOT_MOCK_CARD",
+  "status": "pending",
+  "notes": [
+    "Final design approval blocked: canvaProvenance.source is pilot_harness_mock, require live_design_mcp",
+    "Pre-Canva artifacts (brief, brand, concepts, specs, critique) are complete"
+  ]
+}

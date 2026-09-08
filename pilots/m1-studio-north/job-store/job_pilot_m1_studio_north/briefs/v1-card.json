@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "job_pilot_m1_studio_north-brief-business_card",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "title": "Open Studio Night — Open Studio Night handout card",
+  "offer": "An evening of live demos and new work from resident makers",
+  "audience": {
+    "primary": "Local creatives and collectors",
+    "secondary": "Neighbors curious about the studio",
+    "demographicsNotes": [
+      "Adults 25–55 in the warehouse district"
+    ],
+    "psychographicsNotes": [
+      "Prefer low-pressure visits over ticketed openings"
+    ]
+  },
+  "buyingContext": {
+    "stage": "solution_aware",
+    "setting": "Looking for a low-friction way to visit the studio this week",
+    "objections": [
+      "Worried it will feel like a hard sell"
+    ],
+    "competitors": [
+      "Downtown gallery crawl promos"
+    ]
+  },
+  "objective": "Help the right buyer act on: Studio North is open Friday — come see new work",
+  "oneMessageStatement": "Studio North is open Friday — come see new work",
+  "desiredAction": "RSVP today",
+  "prohibitedClaims": [
+    "best gallery in the world",
+    "guaranteed collector sales",
+    "limited spots almost gone"
+  ],
+  "channel": "print_business_card",
+  "hardConstraints": {
+    "mustIncludeText": [
+      "Open Studio Night",
+      "RSVP today",
+      "Studio North",
+      "+1 555 0100"
+    ],
+    "mustExcludeText": [
+      "best gallery in the world",
+      "guaranteed collector sales",
+      "limited spots almost gone"
+    ],
+    "formatId": "business_card",
+    "dimensions": {
+      "width": 3.5,
+      "height": 2,
+      "unit": "in"
+    },
+    "localization": {
+      "locale": "en-US",
+      "language": "en",
+      "rtl": false
+    },
+    "accessibility": {
+      "minContrastRatio": 4.5,
+      "altTextRequired": true,
+      "colorBlindSafe": false,
+      "notes": [
+        "Hand-held reading"
+      ]
+    },
+    "printer": {
+      "required": true,
+      "bleedInches": 0.125,
+      "safeMarginInches": 0.125,
+      "colorMode": "cmyk",
+      "notes": [
+        "16pt soft-touch"
+      ]
+    },
+    "requireApprovalFor": [
+      "copy",
+      "price",
+      "date",
+      "testimonial",
+      "logo",
+      "certification",
+      "contact",
+      "claim"
+    ]
+  },
+  "creativePreferences": {
+    "moodKeywords": [
+      "inviting",
+      "documentary",
+      "warm"
+    ],
+    "visualStyle": "Open doorway at dusk with quiet type",
+    "preferredPaletteHints": [
+      "#1A1A1A",
+      "#E8E2D6",
+      "#C45C26"
+    ],
+    "typographyHints": [
+      "Strong headline, restrained support"
+    ],
+    "imageryHints": [
+      "Lit studio doorway"
+    ],
+    "doPrefer": [
+      "One message, one CTA"
+    ],
+    "doAvoid": [
+      "Schedule grids",
+      "Badge clusters",
+      "QR in bleed"
+    ],
+    "referenceUrls": [],
+    "notes": [
+      "M1 pilot: poster + business card only"
+    ]
+  },
+  "approvedCopy": {
+    "schemaVersion": 1,
+    "id": "copy-pilot-1",
+    "createdAt": "2026-09-08T04:00:00.000Z",
+    "updatedAt": "2026-09-08T04:00:00.000Z",
+    "headline": "Open Studio Night",
+    "subhead": "See the work. Meet the makers.",
+    "body": "Friday 6–9pm. Free entry. Live demos on the floor.",
+    "callToAction": "RSVP today",
+    "lockedLines": {
+      "dateLine": "Friday 6–9pm",
+      "placeLine": "Studio North · Warehouse District"
+    },
+    "claims": [
+      {
+        "id": "claim-price-1",
+        "kind": "price",
+        "text": "Free entry",
+        "sourceLabel": "Event brief v3",
+        "approvalRecordId": "apr-price-pilot"
+      },
+      {
+        "id": "claim-phone-1",
+        "kind": "contact",
+        "text": "+1 555 0100",
+        "sourceLabel": "CRM primary phone",
+        "approvalRecordId": "apr-contact-pilot"
+      },
+      {
+        "id": "claim-date-1",
+        "kind": "date",
+        "text": "Friday 6–9pm",
+        "sourceLabel": "Event calendar",
+        "approvalRecordId": "apr-date-pilot"
+      }
+    ],
+    "approvalRecordId": "apr-copy-pilot",
+    "approvalStatus": "approved"
+  },
+  "supportedClaims": [],
+  "briefApprovalRecordId": "apr-brief-pilot"
+}

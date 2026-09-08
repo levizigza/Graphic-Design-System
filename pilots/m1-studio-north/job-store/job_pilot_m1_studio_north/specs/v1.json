@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "briefId": "job_pilot_m1_studio_north-brief-business_card",
+  "brandId": "job_pilot_m1_studio_north-brand",
+  "conceptId": "c4-editorial",
+  "approvedCopyId": "copy-pilot-1",
+  "formatId": "business_card",
+  "governingIdea": "A cover-style type system announces the night like a special issue.",
+  "governingIdeaKey": "editorial_invite",
+  "formatAdaptationReportId": "adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card-report",
+  "adaptationFamilyId": "adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial",
+  "hardConstraints": {
+    "mustIncludeText": [
+      "Open Studio Night",
+      "RSVP today",
+      "Studio North",
+      "+1 555 0100"
+    ],
+    "mustExcludeText": [
+      "best gallery in the world",
+      "guaranteed collector sales",
+      "limited spots almost gone",
+      "best gallery in the world",
+      "guaranteed collector sales",
+      "limited spots almost gone"
+    ],
+    "formatId": "business_card",
+    "dimensions": {
+      "width": 3.5,
+      "height": 2,
+      "unit": "in"
+    },
+    "localization": {
+      "locale": "en-US",
+      "language": "en",
+      "rtl": false
+    },
+    "accessibility": {
+      "minContrastRatio": 4.5,
+      "minBodyFontPt": 7.5,
+      "altTextRequired": true,
+      "colorBlindSafe": false,
+      "notes": [
+        "Hand-held reading",
+        "Minimum headline 10pt; body 7.5pt; CTA 7.5pt"
+      ]
+    },
+    "printer": {
+      "required": true,
+      "bleedInches": 0.125,
+      "safeMarginInches": 0.125,
+      "colorMode": "cmyk",
+      "notes": [
+        "Safe area 0.125/0.125/0.125/0.125 in",
+        "Stay inside safe margin; avoid hairline type."
+      ]
+    },
+    "requireApprovalFor": [
+      "copy",
+      "price",
+      "date",
+      "testimonial",
+      "logo",
+      "certification",
+      "contact",
+      "claim"
+    ]
+  },
+  "creativePreferences": {
+    "moodKeywords": [
+      "inviting",
+      "documentary",
+      "warm"
+    ],
+    "visualStyle": "Open doorway at dusk with quiet type",
+    "preferredPaletteHints": [
+      "#1A1A1A",
+      "#E8E2D6",
+      "#C45C26"
+    ],
+    "typographyHints": [
+      "Strong headline, restrained support",
+      "Min type headline 10pt / body 7.5pt"
+    ],
+    "imageryHints": [
+      "Lit studio doorway",
+      "Crop behavior: none_typography_led"
+    ],
+    "doPrefer": [
+      "One message, one CTA"
+    ],
+    "doAvoid": [
+      "Schedule grids",
+      "Badge clusters",
+      "QR in bleed"
+    ],
+    "referenceUrls": [],
+    "notes": [
+      "M1 pilot: poster + business card only",
+      "Identity + contact density. Drop long body copy; keep name/offer crisp — never a miniaturized poster.",
+      "Logo: corner_anchor; crop: none_typography_led; QR: back_side_only"
+    ]
+  },
+  "productionNotes": [
+    "Format adaptation: Business card — Identity + contact density. Drop long body copy; keep name/offer crisp — never a miniaturized poster.",
+    "Viewing distance: arm_length (Held in hand; scanned in seconds at arm’s length.)",
+    "Primary message role: name_title; secondary: contact",
+    "CTA priority: subtle",
+    "Minimum type: headline 10pt, body 7.5pt, CTA 7.5pt — never silently shrink below these",
+    "Safe area: 0.125/0.125/0.125/0.125 in",
+    "Logo behavior: corner_anchor",
+    "Image crop: none_typography_led",
+    "QR placement: back_side_only",
+    "Required contact: name, phone, email, url",
+    "Export: pdf (cmyk, 300 dpi)",
+    "Governing idea (preserved): A cover-style type system announces the night like a special issue.",
+    "Content adaptation required: body=remove",
+    "Front-focused for M1; QR only if back is in scope.",
+    "Brand system: Studio North (job_pilot_m1_studio_north-brand)",
+    "Respect logo rules and brand colors; logo behavior for this format: corner_anchor",
+    "Prefer: One message, one CTA"
+  ],
+  "allowedClaimIds": [
+    "claim-price-1",
+    "claim-phone-1",
+    "claim-date-1"
+  ],
+  "allowedAssetIds": [
+    "asset-logo-1"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "job-manifest-job_pilot_m1_studio_north",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "jobId": "job_pilot_m1_studio_north",
+  "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+  "phase": "intake",
+  "history": [
+    {
+      "at": "2026-09-08T04:00:00.000Z",
+      "toPhase": "intake",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "note": "job created"
+    }
+  ],
+  "latest": {
+    "briefVersion": "v1-card",
+    "conceptBoardVersion": "v1",
+    "designSpecVersion": "v1",
+    "critiqueVersion": "v1",
+    "exportVersion": "v1"
+  },
+  "versions": [
+    {
+      "kind": "brief",
+      "artifactId": "job_pilot_m1_studio_north-brief-poster",
+      "version": "v1",
+      "relativePath": "briefs/v1.json",
+      "sha256": "4d986a6031bbc91b432a42f71b3245bbfe4f796ddf9e0a5449a2afcb103b4d2b",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    },
+    {
+      "kind": "brief",
+      "artifactId": "job_pilot_m1_studio_north-brief-business_card",
+      "version": "v1-card",
+      "relativePath": "briefs/v1-card.json",
+      "sha256": "604df58b13481782e6c70fb526fcd757eeac0eb18b7d2d0c990e331ad51778e3",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    },
+    {
+      "kind": "concept_board",
+      "artifactId": "board-pilot-1",
+      "version": "v1",
+      "relativePath": "concepts/v1.json",
+      "sha256": "17366a9396ee7733492b06197b6a35f478d28aef3665c556b346f0772b82a3ab",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    },
+    {
+      "kind": "design_spec",
+      "artifactId": "adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster",
+      "version": "v1",
+      "relativePath": "specs/v1.json",
+      "sha256": "4faa234775dd666c8bcb152399c7c217628b21cf61b46174bb1bcf60439152e6",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    },
+    {
+      "kind": "critique",
+      "artifactId": "dvc-adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster-v1",
+      "version": "v1",
+      "relativePath": "critiques/v1.json",
+      "sha256": "d8e5b76ab380beec301a302250f27c73a83027dc6185b159c6ee4ae8a9fa66ba",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    },
+    {
+      "kind": "export",
+      "artifactId": "EXP_poster",
+      "version": "v1",
+      "relativePath": "exports/v1.json",
+      "sha256": "f1a7f69c43386260c4a92b3995015ed3355831c8427f7fde574733e84abc108b",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    },
+    {
+      "kind": "design_spec",
+      "artifactId": "adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card",
+      "version": "v1",
+      "relativePath": "specs/v1.json",
+      "sha256": "2bdb4a48f7c531381b9b4d90b3a8326257d2d7e053f45397520e10f4dd1de7f5",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    },
+    {
+      "kind": "critique",
+      "artifactId": "dvc-adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card-v1",
+      "version": "v1",
+      "relativePath": "critiques/v1.json",
+      "sha256": "394c87e8f44d00c9df38bc15e115397572beba03d3ab64e8760d8b725c38e893",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    },
+    {
+      "kind": "export",
+      "artifactId": "EXP_business_card",
+      "version": "v1",
+      "relativePath": "exports/v1.json",
+      "sha256": "6fdd5fa5bc1fcbb6ad271c1a83aa18a816e764e027a880f05f7f835e69a0cbca",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "notes": []
+    }
+  ],
+  "canvaDesignId": null,
+  "canvaEditUrl": null,
+  "errorState": {
+    "failed": false
+  }
+}

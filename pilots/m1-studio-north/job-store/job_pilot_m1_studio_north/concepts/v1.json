@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "id": "board-pilot-1",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "briefId": "job_pilot_m1_studio_north-brief-poster",
+  "brandId": "job_pilot_m1_studio_north-brand",
+  "status": "directions_selected",
+  "concepts": [
+    {
+      "schemaVersion": 1,
+      "id": "c1-threshold",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "updatedAt": "2026-09-08T04:00:00.000Z",
+      "status": "selected",
+      "medium": "text_only",
+      "oneSentenceIdea": "An open studio door turns Friday into a low-pressure visit.",
+      "governingIdea": "An open studio door turns Friday into a low-pressure visit.",
+      "governingIdeaKey": "threshold",
+      "audienceInsight": "Local creatives want a low-pressure Friday visit without a hard sell.",
+      "semanticConnection": "Connects the night to threshold",
+      "semanticLinkToSubject": "Connects the night to threshold",
+      "intendedEmotion": "Confidence to RSVP",
+      "messageHierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "hierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "typographyBehavior": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "typographyDirection": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "imageStrategy": {
+        "approach": "Visual approach for open_door",
+        "metaphorKey": "open_door",
+        "metaphorDescription": "Metaphor: open_door",
+        "dependsOnReference": false
+      },
+      "imageMechanism": "Visual approach for open_door",
+      "likelyMisconception": "Could be skimmed as generic gallery crawl promo",
+      "productionRisks": [
+        "Must keep approved copy locked"
+      ],
+      "risks": [
+        "Must keep approved copy locked"
+      ],
+      "distinctivenessHypothesis": "Hypothesis: threshold reads as Studio North",
+      "styleAxis": "environment_atmosphere",
+      "references": [],
+      "selectionReason": "Strong two-second threshold metaphor; fits poster viewing distance",
+      "briefId": "job_pilot_m1_studio_north-brief-poster",
+      "brandId": "job_pilot_m1_studio_north-brand"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c2-proof",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "updatedAt": "2026-09-08T04:00:00.000Z",
+      "status": "rejected",
+      "medium": "text_only",
+      "oneSentenceIdea": "Honest tools on the bench prove the work is real and local.",
+      "governingIdea": "Honest tools on the bench prove the work is real and local.",
+      "governingIdeaKey": "proof_of_craft",
+      "audienceInsight": "Local creatives want a low-pressure Friday visit without a hard sell.",
+      "semanticConnection": "Connects the night to proof_of_craft",
+      "semanticLinkToSubject": "Connects the night to proof_of_craft",
+      "intendedEmotion": "Confidence to RSVP",
+      "messageHierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "hierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "typographyBehavior": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "typographyDirection": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "imageStrategy": {
+        "approach": "Visual approach for tool_flatlay",
+        "metaphorKey": "tool_flatlay",
+        "metaphorDescription": "Metaphor: tool_flatlay",
+        "dependsOnReference": false
+      },
+      "imageMechanism": "Visual approach for tool_flatlay",
+      "likelyMisconception": "Could be skimmed as generic gallery crawl promo",
+      "productionRisks": [
+        "Must keep approved copy locked"
+      ],
+      "risks": [
+        "Must keep approved copy locked"
+      ],
+      "distinctivenessHypothesis": "Hypothesis: proof_of_craft reads as Studio North",
+      "styleAxis": "object_symbol",
+      "references": [],
+      "rejectionReason": "Object flatlay weaker for brand recognition in pilot human test",
+      "briefId": "job_pilot_m1_studio_north-brief-poster",
+      "brandId": "job_pilot_m1_studio_north-brand"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c3-social",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "updatedAt": "2026-09-08T04:00:00.000Z",
+      "status": "rejected",
+      "medium": "text_only",
+      "oneSentenceIdea": "Neighbors arriving together make the night feel easy to join.",
+      "governingIdea": "Neighbors arriving together make the night feel easy to join.",
+      "governingIdeaKey": "social_arrival",
+      "audienceInsight": "Local creatives want a low-pressure Friday visit without a hard sell.",
+      "semanticConnection": "Connects the night to social_arrival",
+      "semanticLinkToSubject": "Connects the night to social_arrival",
+      "intendedEmotion": "Confidence to RSVP",
+      "messageHierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "hierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "typographyBehavior": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "typographyDirection": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "imageStrategy": {
+        "approach": "Visual approach for crowd_arrival",
+        "metaphorKey": "crowd_arrival",
+        "metaphorDescription": "Metaphor: crowd_arrival",
+        "dependsOnReference": false
+      },
+      "imageMechanism": "Visual approach for crowd_arrival",
+      "likelyMisconception": "Could be skimmed as generic gallery crawl promo",
+      "productionRisks": [
+        "Must keep approved copy locked"
+      ],
+      "risks": [
+        "Must keep approved copy locked"
+      ],
+      "distinctivenessHypothesis": "Hypothesis: social_arrival reads as Studio North",
+      "styleAxis": "human_moment",
+      "references": [],
+      "rejectionReason": "Crowd imagery risks stock feel against brand doAvoid",
+      "briefId": "job_pilot_m1_studio_north-brief-poster",
+      "brandId": "job_pilot_m1_studio_north-brand"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c4-editorial",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "updatedAt": "2026-09-08T04:00:00.000Z",
+      "status": "selected",
+      "medium": "text_only",
+      "oneSentenceIdea": "A cover-style type system announces the night like a special issue.",
+      "governingIdea": "A cover-style type system announces the night like a special issue.",
+      "governingIdeaKey": "editorial_invite",
+      "audienceInsight": "Local creatives want a low-pressure Friday visit without a hard sell.",
+      "semanticConnection": "Connects the night to editorial_invite",
+      "semanticLinkToSubject": "Connects the night to editorial_invite",
+      "intendedEmotion": "Confidence to RSVP",
+      "messageHierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "hierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "typographyBehavior": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "typographyDirection": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "imageStrategy": {
+        "approach": "Visual approach for magazine_cover",
+        "metaphorKey": "magazine_cover",
+        "metaphorDescription": "Metaphor: magazine_cover",
+        "dependsOnReference": false
+      },
+      "imageMechanism": "Visual approach for magazine_cover",
+      "likelyMisconception": "Could be skimmed as generic gallery crawl promo",
+      "productionRisks": [
+        "Must keep approved copy locked"
+      ],
+      "risks": [
+        "Must keep approved copy locked"
+      ],
+      "distinctivenessHypothesis": "Hypothesis: editorial_invite reads as Studio North",
+      "styleAxis": "typographic_system",
+      "references": [],
+      "selectionReason": "Typographic system adapts cleanly to business card constraints",
+      "briefId": "job_pilot_m1_studio_north-brief-poster",
+      "brandId": "job_pilot_m1_studio_north-brand"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c5-process",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "updatedAt": "2026-09-08T04:00:00.000Z",
+      "status": "rejected",
+      "medium": "text_only",
+      "oneSentenceIdea": "A simple path from arrive to RSVP removes guesswork.",
+      "governingIdea": "A simple path from arrive to RSVP removes guesswork.",
+      "governingIdeaKey": "process_map",
+      "audienceInsight": "Local creatives want a low-pressure Friday visit without a hard sell.",
+      "semanticConnection": "Connects the night to process_map",
+      "semanticLinkToSubject": "Connects the night to process_map",
+      "intendedEmotion": "Confidence to RSVP",
+      "messageHierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "hierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "typographyBehavior": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "typographyDirection": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "imageStrategy": {
+        "approach": "Visual approach for step_diagram",
+        "metaphorKey": "step_diagram",
+        "metaphorDescription": "Metaphor: step_diagram",
+        "dependsOnReference": false
+      },
+      "imageMechanism": "Visual approach for step_diagram",
+      "likelyMisconception": "Could be skimmed as generic gallery crawl promo",
+      "productionRisks": [
+        "Must keep approved copy locked"
+      ],
+      "risks": [
+        "Must keep approved copy locked"
+      ],
+      "distinctivenessHypothesis": "Hypothesis: process_map reads as Studio North",
+      "styleAxis": "diagram_explainer",
+      "references": [],
+      "rejectionReason": "Diagram competes with single-message poster rule",
+      "briefId": "job_pilot_m1_studio_north-brief-poster",
+      "brandId": "job_pilot_m1_studio_north-brand"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c6-window",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "updatedAt": "2026-09-08T04:00:00.000Z",
+      "status": "rejected",
+      "medium": "text_only",
+      "oneSentenceIdea": "A lit window at dusk signals the studio is open tonight.",
+      "governingIdea": "A lit window at dusk signals the studio is open tonight.",
+      "governingIdeaKey": "lit_signal",
+      "audienceInsight": "Local creatives want a low-pressure Friday visit without a hard sell.",
+      "semanticConnection": "Connects the night to lit_signal",
+      "semanticLinkToSubject": "Connects the night to lit_signal",
+      "intendedEmotion": "Confidence to RSVP",
+      "messageHierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "hierarchy": {
+        "primary": "Open Studio Night",
+        "secondary": "See the work. Meet the makers.",
+        "exit": "RSVP today"
+      },
+      "typographyBehavior": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "typographyDirection": {
+        "behavior": "Strong lead line, restrained supporting type",
+        "displayRole": "Headline leads",
+        "pairingNotes": "Body stays quiet",
+        "caseTreatment": "as_written",
+        "weightContrast": "high",
+        "brandFontRolesUsed": [
+          "headline",
+          "body"
+        ]
+      },
+      "imageStrategy": {
+        "approach": "Visual approach for lit_window",
+        "metaphorKey": "lit_window",
+        "metaphorDescription": "Metaphor: lit_window",
+        "dependsOnReference": false
+      },
+      "imageMechanism": "Visual approach for lit_window",
+      "likelyMisconception": "Could be skimmed as generic gallery crawl promo",
+      "productionRisks": [
+        "Must keep approved copy locked"
+      ],
+      "risks": [
+        "Must keep approved copy locked"
+      ],
+      "distinctivenessHypothesis": "Hypothesis: lit_signal reads as Studio North",
+      "styleAxis": "narrative_scene",
+      "references": [],
+      "rejectionReason": "Overlaps threshold idea; kept door as primary",
+      "briefId": "job_pilot_m1_studio_north-brief-poster",
+      "brandId": "job_pilot_m1_studio_north-brand"
+    }
+  ],
+  "selectedConceptIds": [
+    "c1-threshold",
+    "c4-editorial"
+  ],
+  "diversityReport": {
+    "distinctGoverningIdeaKeys": 6,
+    "independentMetaphorKeys": 6,
+    "styleAxesUsed": [
+      "environment_atmosphere",
+      "object_symbol",
+      "human_moment",
+      "typographic_system",
+      "diagram_explainer",
+      "narrative_scene"
+    ],
+    "superficialVariationFlags": [],
+    "passed": true
+  },
+  "selectionPrompt": "Select exactly two directions for visual development. The other four stay on record with rejection reasons. Do not generate images or Canva layouts until both directions are chosen.",
+  "visualDevelopmentAllowed": true
+}

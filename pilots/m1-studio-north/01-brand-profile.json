@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "job_pilot_m1_studio_north-brand",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "brandName": "Studio North",
+  "voice": {
+    "tone": [
+      "polished",
+      "confident",
+      "human",
+      "clear",
+      "sales-focused"
+    ],
+    "doSay": [
+      "See the work",
+      "Meet the makers",
+      "RSVP today"
+    ],
+    "dontSay": [
+      "revolutionary",
+      "world-class",
+      "guaranteed results"
+    ],
+    "banHype": true,
+    "neverInventFacts": true
+  },
+  "colors": [
+    {
+      "role": "primary",
+      "hex": "#1A1A1A",
+      "name": "Ink"
+    },
+    {
+      "role": "secondary",
+      "hex": "#E8E2D6",
+      "name": "Paper"
+    },
+    {
+      "role": "accent",
+      "hex": "#C45C26",
+      "name": "Kiln"
+    },
+    {
+      "role": "other",
+      "hex": "#8B3416",
+      "name": "Kiln CTA fill (print-safe with white text)"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "headline",
+      "family": "Freight Display",
+      "fallbackStack": [
+        "Georgia",
+        "serif"
+      ],
+      "licensed": true
+    },
+    {
+      "role": "body",
+      "family": "Söhne",
+      "fallbackStack": [
+        "Helvetica Neue",
+        "sans-serif"
+      ],
+      "licensed": true
+    }
+  ],
+  "logoRules": {
+    "primaryAssetId": "asset-logo-1",
+    "minClearSpace": {
+      "value": 0.25,
+      "unit": "in"
+    },
+    "allowedBackgrounds": [
+      "white",
+      "#E8E2D6"
+    ],
+    "forbiddenTreatments": [
+      "stretch",
+      "recolor_off_brand",
+      "add_effects"
+    ],
+    "mustRemainIntact": true
+  },
+  "imageStyle": {
+    "description": "Real studio spaces, natural light, work in progress",
+    "subjectMatter": [
+      "workbenches",
+      "tools",
+      "open doorway"
+    ],
+    "doPrefer": [
+      "Documentary framing",
+      "Warm dusk light"
+    ],
+    "doAvoid": [
+      "Stock handshakes",
+      "Neon nightlife tropes"
+    ]
+  },
+  "assets": [
+    {
+      "assetId": "asset-logo-1",
+      "label": "Primary mark",
+      "kind": "logo",
+      "classes": [
+        "fixed",
+        "approval_required",
+        "distinctive"
+      ],
+      "permittedVariation": [],
+      "licenseRecordId": "lic-logo-1",
+      "approvalRecordId": "apr-logo-pilot",
+      "localPath": "brand/logo.svg"
+    }
+  ],
+  "logos": [
+    {
+      "assetId": "asset-logo-1",
+      "approvalRecordId": "apr-logo-pilot",
+      "usage": "primary"
+    }
+  ],
+  "certifications": [],
+  "licenseRecords": [
+    {
+      "id": "lic-logo-1",
+      "assetId": "asset-logo-1",
+      "owner": "Studio North",
+      "licenseType": "owned",
+      "licenseLabel": "In-house mark",
+      "commercialUseAllowed": true,
+      "modificationAllowed": false,
+      "attributionRequired": false,
+      "notes": []
+    }
+  ],
+  "distinctivenessAuditId": "da-pilot-1",
+  "brandApprovalRecordId": "apr-brand-pilot",
+  "hardConstraints": {
+    "mustUsePrimaryLogo": true,
+    "mustUseBrandColors": true,
+    "forbiddenImagery": [
+      "Schedule grids",
+      "Badge clusters",
+      "QR in bleed"
+    ]
+  },
+  "creativePreferences": {
+    "moodKeywords": [
+      "inviting",
+      "documentary",
+      "warm"
+    ],
+    "layoutNotes": [
+      "M1 pilot: poster + business card only"
+    ]
+  }
+}

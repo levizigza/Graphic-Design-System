@@ -1,0 +1,60 @@
+{
+  "notes": {
+    "reviewer": "operator@studionorth.example",
+    "reviewedAt": "2026-09-08T04:00:00.000Z",
+    "twoSecondImpression": "Compact Studio North night card with clear RSVP",
+    "messageRecall": "Open Studio Night — Friday evening at Studio North",
+    "brandRecognition": "Studio North",
+    "ctaComprehension": "RSVP today",
+    "productionDefectsNoted": [],
+    "overallNotes": [
+      "Hierarchy reads in two seconds",
+      "Logo clear space respected in mock layout notes",
+      "Final production approval blocked until live Canva Design MCP handoff"
+    ],
+    "recommendApproval": false
+  },
+  "lightweightTest": {
+    "schemaVersion": 1,
+    "id": "human-test-adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card-v1",
+    "createdAt": "2026-09-08T04:00:00.000Z",
+    "updatedAt": "2026-09-08T04:00:00.000Z",
+    "designSpecId": "adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card",
+    "designId": "PILOT_MOCK_CARD",
+    "candidateId": "business_card-cand-a",
+    "designVersion": "v1",
+    "twoSecondExposureMs": 2000,
+    "expectedMessage": "Open Studio Night",
+    "expectedBrand": "Studio North",
+    "expectedCta": "RSVP today",
+    "answers": [
+      {
+        "questionId": "two_second_impression",
+        "response": "Compact Studio North night card with clear RSVP",
+        "correct": true
+      },
+      {
+        "questionId": "message_recall",
+        "response": "Open Studio Night",
+        "correct": true
+      },
+      {
+        "questionId": "brand_recognition",
+        "response": "Studio North",
+        "correct": true
+      },
+      {
+        "questionId": "cta_comprehension",
+        "response": "RSVP today",
+        "correct": true
+      }
+    ],
+    "scores": {
+      "messageRecallCorrect": true,
+      "brandRecognitionCorrect": true,
+      "ctaComprehensionCorrect": true,
+      "impressionCaptured": true
+    },
+    "summary": "impression captured; message recalled; brand recognized; CTA clear"
+  }
+}

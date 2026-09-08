@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "id": "report-pilot-m1-studio-north",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "pilotId": "pilot-m1-studio-north",
+  "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+  "organizationName": "Studio North",
+  "title": "Open Studio Night — M1 poster + business card pilot",
+  "packages": [
+    {
+      "schemaVersion": 1,
+      "id": "pkg-poster",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "updatedAt": "2026-09-08T04:00:00.000Z",
+      "formatId": "poster",
+      "jobId": "job_pilot_m1_studio_north",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "designVersion": "v1",
+      "briefId": "job_pilot_m1_studio_north-brief-poster",
+      "brandId": "job_pilot_m1_studio_north-brand",
+      "conceptBoardId": "board-pilot-1",
+      "selectedConceptIds": [
+        "c1-threshold",
+        "c4-editorial"
+      ],
+      "visuallyDevelopedConceptId": "c1-threshold",
+      "designSpecId": "adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster",
+      "canvaProvenance": {
+        "source": "pilot_harness_mock",
+        "discoveredToolCount": 0,
+        "note": "Canva Design MCP not connected — pilot used harness mock for workflow evaluation only",
+        "recordedAt": "2026-09-08T04:00:00.000Z"
+      },
+      "designId": "PILOT_MOCK_POSTER",
+      "editUrl": "https://www.canva.com/design/PILOT_MOCK_POSTER/edit",
+      "preflightReportId": "preflight-adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster-2026-09-08T04:00:00.000Z",
+      "critiqueRecordId": "dvc-adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster-v1",
+      "exportJobId": "EXP_poster",
+      "exportDownloadUrl": "https://example.com/pilot/exports/poster-v1.pdf",
+      "exportProofed": true,
+      "humanReviewNotes": {
+        "reviewer": "operator@studionorth.example",
+        "reviewedAt": "2026-09-08T04:00:00.000Z",
+        "twoSecondImpression": "Warm open-door invite for Friday night",
+        "messageRecall": "Open Studio Night — Friday evening at Studio North",
+        "brandRecognition": "Studio North",
+        "ctaComprehension": "RSVP today",
+        "productionDefectsNoted": [],
+        "overallNotes": [
+          "Hierarchy reads in two seconds",
+          "Logo clear space respected in mock layout notes",
+          "Final production approval blocked until live Canva Design MCP handoff"
+        ],
+        "recommendApproval": false
+      },
+      "finalApproval": {
+        "schemaVersion": 1,
+        "id": "apr-design-poster",
+        "createdAt": "2026-09-08T04:00:00.000Z",
+        "updatedAt": "2026-09-08T04:00:00.000Z",
+        "subject": "design",
+        "subjectId": "PILOT_MOCK_POSTER",
+        "status": "pending",
+        "notes": [
+          "Final design approval blocked: canvaProvenance.source is pilot_harness_mock, require live_design_mcp",
+          "Pre-Canva artifacts (brief, brand, concepts, specs, critique) are complete"
+        ]
+      },
+      "systemScores": {
+        "comprehension": 8,
+        "recall": 7,
+        "brandRecognition": 8,
+        "ctaClarity": 9,
+        "productionDefects": 0,
+        "revisionCount": 1,
+        "timeToApprovedOutputMinutes": 45
+      },
+      "baseline": {
+        "id": "baseline-poster-2025",
+        "formatId": "poster",
+        "label": "Studio North prior Open Studio flyer (18×24)",
+        "description": "Dense multi-event flyer: small logo, stacked schedule blocks, weak primary CTA, three competing headlines.",
+        "scores": {
+          "comprehension": 5,
+          "recall": 4,
+          "brandRecognition": 6,
+          "ctaClarity": 4,
+          "productionDefects": 3,
+          "revisionCount": 4,
+          "timeToApprovedOutputMinutes": 480
+        },
+        "sourceNote": "Operator-scored baseline from the 2025 spring flyer PDF on the shared drive (not regenerated)."
+      },
+      "comparison": [
+        {
+          "metric": "comprehension",
+          "baseline": 5,
+          "system": 8,
+          "delta": 3,
+          "lowerIsBetter": false,
+          "systemWins": true
+        },
+        {
+          "metric": "recall",
+          "baseline": 4,
+          "system": 7,
+          "delta": 3,
+          "lowerIsBetter": false,
+          "systemWins": true
+        },
+        {
+          "metric": "brandRecognition",
+          "baseline": 6,
+          "system": 8,
+          "delta": 2,
+          "lowerIsBetter": false,
+          "systemWins": true
+        },
+        {
+          "metric": "ctaClarity",
+          "baseline": 4,
+          "system": 9,
+          "delta": 5,
+          "lowerIsBetter": false,
+          "systemWins": true
+        },
+        {
+          "metric": "productionDefects",
+          "baseline": 3,
+          "system": 0,
+          "delta": 3,
+          "lowerIsBetter": true,
+          "systemWins": true
+        },
+        {
+          "metric": "revisionCount",
+          "baseline": 4,
+          "system": 1,
+          "delta": 3,
+          "lowerIsBetter": true,
+          "systemWins": true
+        },
+        {
+          "metric": "timeToApprovedOutputMinutes",
+          "baseline": 480,
+          "system": 45,
+          "delta": 435,
+          "lowerIsBetter": true,
+          "systemWins": true
+        }
+      ],
+      "artifactPaths": {
+        "brief": "job-store/job_pilot_m1_studio_north/briefs/",
+        "brand": "01-brand-profile.json",
+        "concepts": "02-concept-board.json",
+        "handoff": "poster-canva-handoff.json",
+        "preflight": "poster-preflight.json",
+        "critique": "poster-critique.json",
+        "humanReview": "poster-human-review.json",
+        "export": "poster-export.json",
+        "approval": "poster-final-approval.json"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "pkg-business_card",
+      "createdAt": "2026-09-08T04:00:00.000Z",
+      "updatedAt": "2026-09-08T04:00:00.000Z",
+      "formatId": "business_card",
+      "jobId": "job_pilot_m1_studio_north",
+      "correlationId": "corr_5b30d3c1f3d76a5dfc390a30",
+      "designVersion": "v1",
+      "briefId": "job_pilot_m1_studio_north-brief-business_card",
+      "brandId": "job_pilot_m1_studio_north-brand",
+      "conceptBoardId": "board-pilot-1",
+      "selectedConceptIds": [
+        "c1-threshold",
+        "c4-editorial"
+      ],
+      "visuallyDevelopedConceptId": "c4-editorial",
+      "designSpecId": "adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card",
+      "canvaProvenance": {
+        "source": "pilot_harness_mock",
+        "discoveredToolCount": 0,
+        "note": "Canva Design MCP not connected — pilot used harness mock for workflow evaluation only",
+        "recordedAt": "2026-09-08T04:00:00.000Z"
+      },
+      "designId": "PILOT_MOCK_CARD",
+      "editUrl": "https://www.canva.com/design/PILOT_MOCK_CARD/edit",
+      "preflightReportId": "preflight-adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card-2026-09-08T04:00:00.000Z",
+      "critiqueRecordId": "dvc-adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card-v1",
+      "exportJobId": "EXP_business_card",
+      "exportDownloadUrl": "https://example.com/pilot/exports/business_card-v1.pdf",
+      "exportProofed": true,
+      "humanReviewNotes": {
+        "reviewer": "operator@studionorth.example",
+        "reviewedAt": "2026-09-08T04:00:00.000Z",
+        "twoSecondImpression": "Compact Studio North night card with clear RSVP",
+        "messageRecall": "Open Studio Night — Friday evening at Studio North",
+        "brandRecognition": "Studio North",
+        "ctaComprehension": "RSVP today",
+        "productionDefectsNoted": [],
+        "overallNotes": [
+          "Hierarchy reads in two seconds",
+          "Logo clear space respected in mock layout notes",
+          "Final production approval blocked until live Canva Design MCP handoff"
+        ],
+        "recommendApproval": false
+      },
+      "finalApproval": {
+        "schemaVersion": 1,
+        "id": "apr-design-business_card",
+        "createdAt": "2026-09-08T04:00:00.000Z",
+        "updatedAt": "2026-09-08T04:00:00.000Z",
+        "subject": "design",
+        "subjectId": "PILOT_MOCK_CARD",
+        "status": "pending",
+        "notes": [
+          "Final design approval blocked: canvaProvenance.source is pilot_harness_mock, require live_design_mcp",
+          "Pre-Canva artifacts (brief, brand, concepts, specs, critique) are complete"
+        ]
+      },
+      "systemScores": {
+        "comprehension": 8,
+        "recall": 7,
+        "brandRecognition": 7,
+        "ctaClarity": 8,
+        "productionDefects": 0,
+        "revisionCount": 1,
+        "timeToApprovedOutputMinutes": 35
+      },
+      "baseline": {
+        "id": "baseline-card-2025",
+        "formatId": "business_card",
+        "label": "Studio North prior staff card (3.5×2)",
+        "description": "Name-forward card with tiny logo, phone in 7pt gray, no event CTA, QR crowded into bleed.",
+        "scores": {
+          "comprehension": 6,
+          "recall": 5,
+          "brandRecognition": 5,
+          "ctaClarity": 3,
+          "productionDefects": 2,
+          "revisionCount": 2,
+          "timeToApprovedOutputMinutes": 180
+        },
+        "sourceNote": "Operator-scored baseline from the current staff card print file (not regenerated)."
+      },
+      "comparison": [
+        {
+          "metric": "comprehension",
+          "baseline": 6,
+          "system": 8,
+          "delta": 2,
+          "lowerIsBetter": false,
+          "systemWins": true
+        },
+        {
+          "metric": "recall",
+          "baseline": 5,
+          "system": 7,
+          "delta": 2,
+          "lowerIsBetter": false,
+          "systemWins": true
+        },
+        {
+          "metric": "brandRecognition",
+          "baseline": 5,
+          "system": 7,
+          "delta": 2,
+          "lowerIsBetter": false,
+          "systemWins": true
+        },
+        {
+          "metric": "ctaClarity",
+          "baseline": 3,
+          "system": 8,
+          "delta": 5,
+          "lowerIsBetter": false,
+          "systemWins": true
+        },
+        {
+          "metric": "productionDefects",
+          "baseline": 2,
+          "system": 0,
+          "delta": 2,
+          "lowerIsBetter": true,
+          "systemWins": true
+        },
+        {
+          "metric": "revisionCount",
+          "baseline": 2,
+          "system": 1,
+          "delta": 1,
+          "lowerIsBetter": true,
+          "systemWins": true
+        },
+        {
+          "metric": "timeToApprovedOutputMinutes",
+          "baseline": 180,
+          "system": 35,
+          "delta": 145,
+          "lowerIsBetter": true,
+          "systemWins": true
+        }
+      ],
+      "artifactPaths": {
+        "brief": "job-store/job_pilot_m1_studio_north/briefs/",
+        "brand": "01-brand-profile.json",
+        "concepts": "02-concept-board.json",
+        "handoff": "business_card-canva-handoff.json",
+        "preflight": "business_card-preflight.json",
+        "critique": "business_card-critique.json",
+        "humanReview": "business_card-human-review.json",
+        "export": "business_card-export.json",
+        "approval": "business_card-final-approval.json"
+      }
+    }
+  ],
+  "failures": [
+    {
+      "id": "F001",
+      "occurredAt": "2026-09-08T04:00:00.000Z",
+      "formatId": "shared",
+      "stage": "canva_discovery",
+      "severity": "blocker",
+      "summary": "Canva Design MCP not connected",
+      "detail": "Live tool discovery returned 0 Canva tools. Poster and business card handoffs used pilot_harness_mock IDs (PILOT_MOCK_*), which cannot receive final design approval.",
+      "recurring": true,
+      "convertedInto": {
+        "kind": "validation_rule",
+        "reference": "assertFinalDesignApprovalAllowed",
+        "description": "Final design approval is rejected unless canvaProvenance.source === live_design_mcp, with designId, editUrl, and proofed export present."
+      }
+    },
+    {
+      "id": "F-cta-contrast-poster",
+      "occurredAt": "2026-09-08T04:00:00.000Z",
+      "formatId": "poster",
+      "stage": "format_adaptation",
+      "severity": "major",
+      "summary": "Brand accent CTA contrast failed for poster",
+      "detail": "Kiln #C45C26 with white CTA text is 4.28:1 — below print 4.5:1. Revised to darkened kiln #8B3416.",
+      "recurring": true,
+      "convertedInto": {
+        "kind": "validation_rule",
+        "reference": "assertBrandCtaContrast",
+        "description": "Reject brand CTA fill/text pairs below print contrast (4.5:1) before Canva production; Studio North uses darkened kiln #8B3416 with white CTA text."
+      }
+    },
+    {
+      "id": "F-cta-contrast-business_card",
+      "occurredAt": "2026-09-08T04:00:00.000Z",
+      "formatId": "business_card",
+      "stage": "format_adaptation",
+      "severity": "major",
+      "summary": "Brand accent CTA contrast failed for business_card",
+      "detail": "Kiln #C45C26 with white CTA text is 4.28:1 — below print 4.5:1. Revised to darkened kiln #8B3416.",
+      "recurring": true,
+      "convertedInto": {
+        "kind": "validation_rule",
+        "reference": "assertBrandCtaContrast",
+        "description": "Reject brand CTA fill/text pairs below print contrast (4.5:1) before Canva production; Studio North uses darkened kiln #8B3416 with white CTA text."
+      }
+    }
+  ],
+  "agentExpansionRecommendation": {
+    "addAgents": false,
+    "rationale": "The measured bottleneck is Canva Design MCP connectivity and OAuth — infrastructure for the existing coordinator — not a workload the current single coordinator cannot schedule. Do not add autonomous agents.",
+    "measuredBottleneck": "canva_design_mcp_not_connected"
+  },
+  "overallStatus": "complete_blocked_pending_live_canva"
+}

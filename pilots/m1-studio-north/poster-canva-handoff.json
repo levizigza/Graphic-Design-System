@@ -1,0 +1,18 @@
+{
+  "designId": "PILOT_MOCK_POSTER",
+  "editUrl": "https://www.canva.com/design/PILOT_MOCK_POSTER/edit",
+  "exportJobId": "EXP_poster",
+  "exportDownloadUrl": "https://example.com/pilot/exports/poster-v1.pdf",
+  "canvaProvenance": {
+    "source": "pilot_harness_mock",
+    "discoveredToolCount": 0,
+    "note": "Canva Design MCP not connected — pilot used harness mock for workflow evaluation only",
+    "recordedAt": "2026-09-08T04:00:00.000Z"
+  },
+  "selectedCandidateId": "poster-cand-a",
+  "visuallyDevelopedDirections": [
+    "c1-threshold",
+    "c4-editorial"
+  ],
+  "developedForFormat": "c1-threshold"
+}

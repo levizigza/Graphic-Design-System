@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "preflight-adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card-2026-09-08T04:00:00.000Z",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "renderResultId": "render-business_card-v1",
+  "designSpecId": "adapt-job_pilot_m1_studio_north-brief-business_card-c4-editorial-business_card",
+  "designId": "PILOT_MOCK_CARD",
+  "editUrl": "https://www.canva.com/design/PILOT_MOCK_CARD/edit",
+  "outputKind": "print",
+  "contrastStandard": "custom_print",
+  "checks": [
+    {
+      "id": "copy-present-dy7ryc",
+      "category": "copy",
+      "status": "pass",
+      "severity": "info",
+      "message": "Approved copy present",
+      "hard": true,
+      "location": {},
+      "evidence": "Observed includes \"Open Studio Night\"",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "copy-present-yz9es",
+      "category": "copy",
+      "status": "pass",
+      "severity": "info",
+      "message": "Approved copy present",
+      "hard": true,
+      "location": {},
+      "evidence": "Observed includes \"RSVP today\"",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "copy-present-8hndgm",
+      "category": "copy",
+      "status": "pass",
+      "severity": "info",
+      "message": "Approved copy present",
+      "hard": true,
+      "location": {},
+      "evidence": "Observed includes \"+1 555 0100\"",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "spelling-not-run",
+      "category": "spelling",
+      "status": "warn",
+      "severity": "minor",
+      "message": "Spelling pass not provided",
+      "hard": false,
+      "location": {},
+      "evidence": "observations.spellingSuspects omitted",
+      "suggestedCorrection": "Run a spellcheck against observed text and pass suspects into preflight."
+    },
+    {
+      "id": "contrast-ok-dy7ryc",
+      "category": "contrast",
+      "status": "pass",
+      "severity": "info",
+      "message": "Contrast meets threshold",
+      "hard": true,
+      "location": {
+        "field": "headline"
+      },
+      "evidence": "13.49:1 ≥ 4.5:1",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "contrast-ok-yz9es",
+      "category": "contrast",
+      "status": "pass",
+      "severity": "info",
+      "message": "Contrast meets threshold",
+      "hard": true,
+      "location": {
+        "field": "cta"
+      },
+      "evidence": "8.08:1 ≥ 4.5:1",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "cta-present",
+      "category": "cta",
+      "status": "pass",
+      "severity": "info",
+      "message": "CTA observed",
+      "hard": true,
+      "location": {},
+      "evidence": "At least one text box with role=cta",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "logo-clear-space-ok",
+      "category": "logo",
+      "status": "pass",
+      "severity": "info",
+      "message": "Logo clear space OK",
+      "hard": true,
+      "location": {},
+      "evidence": "0.3in ≥ 0.25in",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "safe-area-specified",
+      "category": "safe_area",
+      "status": "pass",
+      "severity": "info",
+      "message": "Safe margin specified on spec",
+      "hard": true,
+      "location": {},
+      "evidence": "safeMarginInches=0.125",
+      "suggestedCorrection": "Verify live layout respects this margin."
+    },
+    {
+      "id": "image-resolution-unmeasured",
+      "category": "image_resolution",
+      "status": "warn",
+      "severity": "minor",
+      "message": "No image resolution observations",
+      "hard": false,
+      "location": {},
+      "evidence": "observations.images empty/omitted",
+      "suggestedCorrection": "Record placed image PPI before print approval."
+    },
+    {
+      "id": "dimensions-ok",
+      "category": "dimensions",
+      "status": "pass",
+      "severity": "info",
+      "message": "Page dimensions match spec",
+      "hard": true,
+      "location": {},
+      "evidence": "3.5×2 in",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "export-format-ok",
+      "category": "export",
+      "status": "pass",
+      "severity": "info",
+      "message": "Export format matches requirements",
+      "hard": true,
+      "location": {},
+      "evidence": "pdf",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "printer-color-mode",
+      "category": "printer",
+      "status": "pass",
+      "severity": "info",
+      "message": "Printer color mode specified on spec",
+      "hard": true,
+      "location": {},
+      "evidence": "colorMode=cmyk",
+      "suggestedCorrection": "Verify export color profile matches before calling print-ready."
+    },
+    {
+      "id": "handoff-design-id-ok",
+      "category": "handoff",
+      "status": "pass",
+      "severity": "info",
+      "message": "Design ID present",
+      "hard": true,
+      "location": {},
+      "evidence": "PILOT_MOCK_CARD",
+      "suggestedCorrection": "None"
+    },
+    {
+      "id": "handoff-edit-url-ok",
+      "category": "handoff",
+      "status": "pass",
+      "severity": "info",
+      "message": "Edit URL present",
+      "hard": true,
+      "location": {},
+      "evidence": "https://www.canva.com/design/PILOT_MOCK_CARD/edit",
+      "suggestedCorrection": "None"
+    }
+  ],
+  "hardFailCount": 0,
+  "warnCount": 2,
+  "outcome": "pass_with_warnings",
+  "printReady": true,
+  "printReadyBlockers": [
+    "cleared:bleed_verified",
+    "cleared:crop_marks_verified",
+    "cleared:color_profile_verified",
+    "cleared:proofing_verified"
+  ],
+  "approvalAllowed": true,
+  "observedText": [
+    "Open Studio Night",
+    "RSVP today",
+    "Studio North",
+    "Friday 6–9pm",
+    "Free entry",
+    "+1 555 0100",
+    "See the work. Meet the makers."
+  ],
+  "summary": "Preflight passed with 2 warning(s) — approval allowed; review warnings."
+}

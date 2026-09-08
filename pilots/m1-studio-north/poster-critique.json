@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "dvc-adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster-v1",
+  "createdAt": "2026-09-08T04:00:00.000Z",
+  "updatedAt": "2026-09-08T04:00:00.000Z",
+  "designVersion": "v1",
+  "designSpecId": "adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster",
+  "designId": "PILOT_MOCK_POSTER",
+  "candidateId": "poster-cand-a",
+  "critiqueId": "critique-adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster-v1",
+  "humanTestId": "human-test-adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster-v1",
+  "critique": {
+    "schemaVersion": 1,
+    "id": "critique-adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster-v1",
+    "createdAt": "2026-09-08T04:00:00.000Z",
+    "updatedAt": "2026-09-08T04:00:00.000Z",
+    "renderResultId": "render-poster-v1",
+    "designSpecId": "adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster",
+    "designId": "PILOT_MOCK_POSTER",
+    "candidateId": "poster-cand-a",
+    "designVersion": "v1",
+    "overallScore": 8.1,
+    "passThreshold": 7,
+    "dimensions": [
+      {
+        "id": "message_comprehension",
+        "score": 8,
+        "notes": "message_comprehension acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "audience_relevance",
+        "score": 8,
+        "notes": "audience_relevance acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "visual_hierarchy",
+        "score": 8,
+        "notes": "visual_hierarchy acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "brand_recognition",
+        "score": 8,
+        "notes": "brand_recognition acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "distinctiveness",
+        "score": 8,
+        "notes": "distinctiveness acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "memorability",
+        "score": 8,
+        "notes": "memorability acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "cta_clarity",
+        "score": 9,
+        "notes": "cta_clarity acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "accessibility",
+        "score": 8,
+        "notes": "accessibility acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "production_readiness",
+        "score": 8,
+        "notes": "production_readiness acceptable for pilot poster",
+        "findings": []
+      },
+      {
+        "id": "aesthetic_appropriateness",
+        "score": 8,
+        "notes": "aesthetic_appropriateness acceptable for pilot poster",
+        "findings": []
+      }
+    ],
+    "findings": [],
+    "revisionInstructions": [],
+    "integrityViolations": [],
+    "decision": "pass",
+    "revisionsRemaining": 2,
+    "humanReviewRequired": false
+  },
+  "humanTest": {
+    "schemaVersion": 1,
+    "id": "human-test-adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster-v1",
+    "createdAt": "2026-09-08T04:00:00.000Z",
+    "updatedAt": "2026-09-08T04:00:00.000Z",
+    "designSpecId": "adapt-job_pilot_m1_studio_north-brief-poster-c1-threshold-poster",
+    "designId": "PILOT_MOCK_POSTER",
+    "candidateId": "poster-cand-a",
+    "designVersion": "v1",
+    "twoSecondExposureMs": 2000,
+    "expectedMessage": "Open Studio Night",
+    "expectedBrand": "Studio North",
+    "expectedCta": "RSVP today",
+    "answers": [
+      {
+        "questionId": "two_second_impression",
+        "response": "Warm open-door invite for Friday night",
+        "correct": true
+      },
+      {
+        "questionId": "message_recall",
+        "response": "Open Studio Night",
+        "correct": true
+      },
+      {
+        "questionId": "brand_recognition",
+        "response": "Studio North",
+        "correct": true
+      },
+      {
+        "questionId": "cta_comprehension",
+        "response": "RSVP today",
+        "correct": true
+      }
+    ],
+    "scores": {
+      "messageRecallCorrect": true,
+      "brandRecognitionCorrect": true,
+      "ctaComprehensionCorrect": true,
+      "impressionCaptured": true
+    },
+    "summary": "impression captured; message recalled; brand recognized; CTA clear"
+  }
+}

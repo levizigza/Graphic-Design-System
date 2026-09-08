@@ -1,0 +1,14 @@
+{
+  "formatId": "business_card",
+  "jobId": "EXP_business_card",
+  "downloadUrl": "https://example.com/pilot/exports/business_card-v1.pdf",
+  "designId": "PILOT_MOCK_CARD",
+  "editUrl": "https://www.canva.com/design/PILOT_MOCK_CARD/edit",
+  "proofed": true,
+  "canvaProvenance": {
+    "source": "pilot_harness_mock",
+    "discoveredToolCount": 0,
+    "note": "Canva Design MCP not connected — pilot used harness mock for workflow evaluation only",
+    "recordedAt": "2026-09-08T04:00:00.000Z"
+  }
+}
