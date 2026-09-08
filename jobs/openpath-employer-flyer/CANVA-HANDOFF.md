@@ -5,7 +5,7 @@ Canva Design MCP is not connected in this workspace. Rebuild in Canva for a live
 1. Custom size **8.5 × 11 in** portrait.
 2. Upload `OpenPath-Logo.JPG`, `hero-pexels-5439468-hires.jpg`, `qr-employer-contact.png`.
 3. Layers (top → bottom):
-   - Header: logo + FOR EMPLOYERS
+   - Header: OpenPath logo
    - Hero image ≈ **35–40%** page height; crop clear of text; do not label people as OpenPath staff/clients/candidates
    - Navy headline panel: OPEN ROLE? / OPEN THE RIGHT PATH. + support line
    - Thin gold pathway line toward CTA

@@ -1,0 +1,20 @@
+{
+  "designId": "DAHUnqsvaPE",
+  "title": "OpenPath Employer Flyer — FOR EMPLOYERS",
+  "editUrl": "https://www.canva.com/d/XLbZydBlE10h3ab",
+  "viewUrl": "https://www.canva.com/d/4LwRSP_BcfkZc0a",
+  "sizePx": { "width": 2550, "height": 3300 },
+  "sizeIn": { "width": 8.5, "height": 11 },
+  "includesForEmployers": true,
+  "assetsUploaded": {
+    "logoHorizontal": "MAHUn3VvRdw",
+    "logoStacked": "MAHUnkqJxaw",
+    "hero": "MAHUni-ii44",
+    "qr": "MAHUnq5Yazs"
+  },
+  "notes": [
+    "Letter-size design after Magic Resize from generated flyer candidate",
+    "Edited in Canva via MCP: cleared overlaps, horizontal logo, approved copy, full CTA/contact, service columns, QR",
+    "Logo uses white plate JPG (no transparent PNG available via public URL)"
+  ]
+}
